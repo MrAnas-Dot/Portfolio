@@ -1,7 +1,40 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    // other options...
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ]
 }
+
+
+// {
+//   "compilerOptions": {
+//     "jsx": "react",
+//     // other options...
+//   }
+// }
+
+
+// {
+//   "compilerOptions": {
+//     "esModuleInterop": true,
+//     // other options...
+//   }
+// }
+
+
+// {
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
