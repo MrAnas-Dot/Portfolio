@@ -10,6 +10,13 @@ export const Education = () => {
         </h2>
         
         <div className="space-y-6">
+        <EducationCard
+            type="certification"
+            title="Full Stack Developer"
+            institution="BDreams"
+            location="Jayanagar, Bangalore"
+          />
+          
           <EducationCard
             type="education"
             title="B.Sc. Computer Science"
@@ -26,12 +33,7 @@ export const Education = () => {
             location="Vaitheeswaran Koil"
           />
           
-          <EducationCard
-            type="certification"
-            title="Full Stack Developer"
-            institution="BDreams"
-            location="Jayanagar, Bangalore"
-          />
+          
         </div>
       </div>
     </div>

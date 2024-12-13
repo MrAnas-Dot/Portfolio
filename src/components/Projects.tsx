@@ -4,23 +4,23 @@ import { ExternalLink } from 'lucide-react';
 const projects = [
   {
     title: "MindowsAi",
-    description: "A Portfolio Generator is a web application or software tool that allows users to create personalized portfolio websites effortlessly, without needing advanced coding skills.",
+    description: "Mindows Chat AI is an interactive AI-powered chatbot designed to provide quick and efficient responses to user queries. It combines modern AI technology with a user-friendly interface, offering a seamless and engaging experience.",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200",
     tags: ["ReacJS", "HTML", "CSS","JavaScript","AI"]
   },
-  {
-    title: "Digital Banking",
-    description: "Modern banking platform with elegant interactions",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1200",
-    tags: ["TypeScript", "React", "Firebase"]
-  },
-  {
-    title: "AI Dashboard",
-    description: "Sophisticated analytics platform with real-time data",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
-    tags: ["React", "D3.js", "TailwindCSS"]
-  }
-];
+//   {
+//     title: "Digital Banking",
+//     description: "Modern banking platform with elegant interactions",
+//     image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1200",
+//     tags: ["TypeScript", "React", "Firebase"]
+//   },
+//   {
+//     title: "AI Dashboard",
+//     description: "Sophisticated analytics platform with real-time data",
+//     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+//     tags: ["React", "D3.js", "TailwindCSS"]
+//   }
+  ];
 
 export const Projects = () => {
   return (
@@ -41,9 +41,17 @@ export const Projects = () => {
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold text-white mb-2 flex items-center justify-between">
-                {project.title}
-                <ExternalLink className="w-5 h-5 text-purple-400 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </h3>
+              {project.title}
+              <a 
+               href="https://mindowschatai.netlify.app/" 
+                target="_blank" 
+               rel="noopener noreferrer"
+               className="w-5 h-5 text-purple-400 opacity-0 group-hover:opacity-100 transition-opacity"
+               >
+              <ExternalLink />
+              </a>
+               </h3>
+
               <p className="text-gray-400 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag, tagIndex) => (
