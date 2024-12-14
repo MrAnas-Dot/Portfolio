@@ -12,7 +12,7 @@ const Welcome: React.FC = () => {
     } else {
       setUserName("Guest");
     }
-  }, []); // Empty dependency array ensures this runs only once
+  }, [1]); // Empty dependency array ensures this runs only once
 
   return (
     <div className="welcome-container">

@@ -1,7 +1,7 @@
 .welcome-container {
     position: fixed; /* Keeps the message fixed in place */
-    top: 10px;       /* Adjust vertical position */
-    left: 50%;       /* Centers horizontally */
+    top: 12px;       /* Adjust vertical position */
+    left: 20%;       /* Centers horizontally */
     transform: translateX(-50%); /* Adjusts for proper centering */
     background-color: #000; /* Background color */
     color: #fff;            /* Text color */
