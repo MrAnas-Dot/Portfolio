@@ -9,7 +9,7 @@ export const ProfileImage = ({ name }: ProfileImageProps) => {
     <div className="relative w-32 h-32 mx-auto mb-8">
       <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full animate-pulse-slow"></div>
       <img
-        src="puplic/assets/pic3.jpg"
+        src="puplic/assets/pic.png"
         alt={`${name}'s profile`}
         className="absolute inset-1 w-[calc(100%-8px)] h-[calc(100%-8px)] rounded-full object-cover border-2 border-white/10"
         onError={(e) => {
