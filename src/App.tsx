@@ -1,5 +1,4 @@
 import React from 'react';
-// import  Welcomemsg  from './components/Welcomemsg/welcome';
 import { Navbar } from './components/Navbar/Navbar';
 import { Hero } from './components/Hero';
 import { Education } from './components/Education/Education';
@@ -14,7 +13,6 @@ function App() {
   return (
     <div className="bg-black text-white">
       <TestIndicator />
-      {/* <Welcomemsg /> */}
       <Navbar />
       <section id="about">
         <Hero />
